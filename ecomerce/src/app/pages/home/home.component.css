@@ -30,3 +30,22 @@
     background-color: rgb(240, 47, 40);
     color: white;
 }
+
+.Box{
+    background-color: rgb(31, 29, 29);
+    padding: 20px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.Box h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.Box p{
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+}
