@@ -1,6 +1,6 @@
 .banner{
     background-image: url('../../../assets/img/banner1.jpg');
-    height: 600px;
+    height: 588px;
     background-position: center top;
     background-size: cover;
 }
@@ -24,4 +24,9 @@
     padding: 16px 20px;
     border-radius: 8px;
     font-weight: bold;
+}
+
+.content a:hover{
+    background-color: rgb(240, 47, 40);
+    color: white;
 }
