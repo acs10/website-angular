@@ -1,0 +1,51 @@
+.banner{
+    background-image: url('../../../assets/img/banner1.jpg');
+    height: 588px;
+    background-position: center top;
+    background-size: cover;
+}
+
+.content{
+    top: 42%;
+    left: 31%;
+    position: absolute;
+}
+
+.content h1{
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.content a{
+    text-decoration: none;
+    background-color: rgb(248, 150, 150);
+    color: white;
+    padding: 16px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.content a:hover{
+    background-color: rgb(240, 47, 40);
+    color: white;
+}
+
+.Box{
+    background-color: rgb(31, 29, 29);
+    padding: 20px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.Box h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.Box p{
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+}
