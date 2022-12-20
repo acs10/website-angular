@@ -7,7 +7,9 @@
                 <h1>{{fd.name}}</h1>
                 <p>{{fd.details}}</p>
                 <p>{{fd.price | currency:'BRL'}}</p>
-                <a class="btn_pedido">Fazer pedido <i class="bi bi-bag-fill"></i></a>
+                <a class="btn_pedido" [routerLink]="['/menu', fd.id]">Fazer pedido 
+                <i class="bi bi-bag-fill"></i>
+                </a>
             </div>
         </div>
     </div>
