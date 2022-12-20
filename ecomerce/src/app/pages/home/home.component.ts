@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { OrderDetailsService } from 'src/app/services/order-details.service';
-OrderDetailsService
 
 @Component({
   selector: 'app-home',
