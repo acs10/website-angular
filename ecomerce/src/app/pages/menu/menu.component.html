@@ -1,1 +1,16 @@
-<p>menu works!</p>
+<div class="container mt-5 mb-4">
+    <h1 class="text-center"> Roupas Favoritas </h1>
+    <div class="row">
+        <div class="col-lg-4" *ngFor ="let fd of data">
+            <div class="boxImg">
+                <img src="{{fd.img}}">
+                <h1>{{fd.name}}</h1>
+                <p>{{fd.details}}</p>
+                <p>{{fd.price | currency:'BRL'}}</p>
+                <a class="btn_pedido" [routerLink]="['/menu', fd.id]">Fazer pedido 
+                <i class="bi bi-bag-fill"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

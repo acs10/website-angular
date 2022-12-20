@@ -1,0 +1,13 @@
+<div class="container mt-5 mb-4">
+    <h1 class="text-center"> Single Page </h1>
+    <div class="row">
+        <div class="col-lg-6" *ngIf="menuData">
+            <div class="boxImg">
+                <img src="{{menuData[0].img}}" width="100%"/>
+                <h1>{{menuData[0].name}}</h1>
+                <p>{{menuData[0].details}}</p>
+                <p>{{menuData[0].price | currency:'BRL'}}</p>
+            </div>
+        </div>
+    </div>
+</div>

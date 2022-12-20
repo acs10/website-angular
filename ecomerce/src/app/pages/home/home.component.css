@@ -49,3 +49,28 @@
     font-style: italic;
     color: white;
 }
+
+.boxImg{
+    padding: 10px 5px;
+}
+
+.boxImg img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.boxImg h1{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.maisopcoes{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
