@@ -1,0 +1,31 @@
+.main-contact {
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 15px;
+
+}
+
+.form-contact {
+    margin: 10px 0;
+ }
+
+.entry-label {
+    display: block;
+    margin: 4px auto;
+    width: 50%;
+}
+
+.entry, .form-contact textarea {
+    display: block;
+    margin: 0 auto 10px;
+    padding: 4px 9px;
+    font-size: 12px;
+    width: 50%;
+    box-sizing: border-box;
+    resize: none;
+    overflow: auto;
+}
+
+#checkbox, .div-entry {
+    margin: 30px auto;
+}
